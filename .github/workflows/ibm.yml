@@ -18,7 +18,7 @@ jobs:
     - name: Init
       run: |
         chmod -R 777 ./IBM_Cloud_CLI/
-        sed -i "s/id\": .*\"/id\": \"${{ UUID }}\"/g" ./v2ray_deploy/v2ray/config.json
+        sed -i "s/id\": .*\"/id\": \"${{ secrets.UUID }}\"/g" ./v2ray_deploy/v2ray/config.json
     - name: Login IBM Cloud
       env:
         IBM_ACCOUNT: ${{ secrets.IBM_ACCOUNT }}
