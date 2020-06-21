@@ -30,14 +30,14 @@ cd ./ibm_v2ray/
 wget -qO ${IBM_CLI_BAG} ${IBM_CLI_URL}
 tar xf ${IBM_CLI_BAG} 
 rm ${IBM_CLI_BAG}
-chmod +x IBM_Cloud_CLI/ibmcloud IBM_Cloud_CLI/ibmcloud-analytics
+chmod 700 IBM_Cloud_CLI/ibmcloud IBM_Cloud_CLI/ibmcloud-analytics
 
 echo "下载v2ray中..."
 cd ./v2ray_deploy/
 wget -q ${V2RAY_URL}
 unzip -q ${V2RAY_BAG} -d v2ray
 rm ${V2RAY_BAG}
-chmod +x v2ray/v2ray v2ray/v2ctl
+chmod 700 v2ray/v2ray v2ray/v2ctl
 
 echo "初始化配置中..."
 cat > manifest.yml  << EOF
