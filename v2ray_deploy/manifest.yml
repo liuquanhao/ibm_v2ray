@@ -1,0 +1,5 @@
+applications:
+  - path: .
+    name: liuxu-v2ray 
+    random-route: true
+    memory: 256M
