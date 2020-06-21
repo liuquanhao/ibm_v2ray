@@ -76,6 +76,7 @@ ibmcloud target --cf
 ibmcloud cf install
 ibmcloud cf push
 echo "*******************************"
+echo "你vray设置的端口是: " ${IBM_APP_PORT}
 echo "将这个v2ray uuid设置到你的客户端: " ${UUID}
 echo "*******************************"
 echo "部署完成"

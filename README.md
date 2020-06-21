@@ -16,6 +16,8 @@ https://github.com/badafans/v2ray-cloudfoundry
 
 同时，主要还是用别人的项目不放心，特别是还有几个二进制程序，所以这里就直接从官方下载`ibmcloud`和`v2ray`了
 
+还添加了自定义端口，注意设置1024-65535之间，不要设置太小，实际上你的程序在IBM是一普通用户权限运行的
+
 总之来讲，你的输出会是这样：
 
 ```bash
@@ -50,3 +52,12 @@ addEventListener(
 )
 ```
 
+## 调试
+
+在IBM cloud右上角可以点进去你`账户`的IBM控制台，系统是`ubuntu16.04`
+
+你还可以到你的应用里面调试，我这里再白嫖一下IBMyes的图片（dog）
+
+![img](https://github.com/CCChieh/IBMYes/raw/master/img/README/image-20200615210821081.png)
+
+点击左边的运行时，再点击右边的SSH，就是你应用的系统了，是`ubuntu18.04`，居然比个人控制台系统新，666
