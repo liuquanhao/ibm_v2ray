@@ -17,8 +17,8 @@ jobs:
 
     - name: Init
       run: |
-        wget -O ibmcloud.tar.gz
-        tar xf ibmcloud.tar.gz https://clis.cloud.ibm.com/download/bluemix-cli/1.1.0/linux64/archive
+        wget -O ibmcloud.tar.gz https://clis.cloud.ibm.com/download/bluemix-cli/1.1.0/linux64/archive
+        tar xf ibmcloud.tar.gz 
         wget https://github.com/v2ray/v2ray-core/releases/download/v4.25.0/v2ray-linux-64.zip
         unzip v2ray-linux-64.zip -d v2ray_deploy/v2ray
         chmod 700 ./IBM_Cloud_CLI/ibmcloud ./IBM_Cloud_CLI/ibmcloud-analytics
