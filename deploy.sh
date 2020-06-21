@@ -23,7 +23,7 @@ echo "部署端口：${IBM_APP_PORT}"
 echo "配置完成..."
 
 echo "初始化部署环境..."
-git clone https://github.com/liuquanhao/ibm_v2ray
+git clone -q https://github.com/liuquanhao/ibm_v2ray
 
 echo "下载ibmcloud中..."
 cd ./ibm_v2ray/
