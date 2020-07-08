@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ## 环境变量
 IBM_CLI_BAG=ibmcloud.tar.gz
