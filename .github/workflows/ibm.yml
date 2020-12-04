@@ -1,12 +1,12 @@
 name: IBM Cloud Auto Restart
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-  schedule:
-    - cron: '0 3 * * FRI'
+  #push:
+  #  branches: [ master ]
+  #pull_request:
+  #  branches: [ master ]
+  #schedule:
+    #- cron: '0 3 * * FRI'
 
 jobs:
   ibm-cloud-restart:
